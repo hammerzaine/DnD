@@ -1,0 +1,933 @@
+body {
+    background-color: #cccccc;
+}
+
+input, textarea {
+    font-family: "Segoe Print";
+}
+
+.bottom_create {
+    float: left;
+    margin-left: -210px;
+    margin-top: 1120px;
+}
+
+.top_create {
+    float: left;
+    margin-left: -210px;
+    margin-top: -40px;
+}
+
+.char_sheet {
+    background-image: url("../pics/StarterSet_Charactersv2.png");
+    background-repeat: no-repeat;
+    font-family: "Segoe Print";
+    width: 900px;
+    height: 1190px;
+    table-layout: fixed;
+}
+
+.char_name {
+    font-size: 15px;
+    float: left;
+    margin-top: 84px;
+    margin-left: 80px;
+}
+
+.class {
+    font-size: 12px;
+    float: left;
+    margin-top: 68px;
+    margin-left: 110px;
+}
+
+.bg {
+    font-size: 12px;
+    float: left;
+    margin-top: 68px;
+    margin-left: 80px;
+}
+
+.race {
+    font-size: 12px;
+    float: left;
+    margin-left: -233px;
+    margin-top: 105px;
+}
+
+.alignment {
+    font-size: 12px;
+    float: left;
+    margin-left: -100px;
+    margin-top: 105px;
+}
+
+.xp {
+    float: left;
+    margin-top: -29px;
+    margin-left: 670px;
+}
+
+.exp {
+    width: 125px;
+    height: 21px;
+    font-size: 20px;
+}
+
+.str {
+    float: left;
+    width: 45px;
+    margin-top: 220px;
+    margin-left: -550px;
+}
+
+.str_race_bonus {
+    float: left;
+    margin-top: 129px;
+    margin-left: -33px;
+}
+
+.strength_race_bonus {
+    width: 26px;
+    height: 17px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.dex {
+    float: left;
+    margin-top: 190px;
+    margin-left: -40px;
+}
+
+.dexterity {
+    width: 40px;
+    height: 26px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.dex_race_bonus {
+    float: left;
+    margin-top: 229px;
+    margin-left: -33px;
+}
+
+.dexterity_race_bonus {
+    width: 26px;
+    height: 17px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.const {
+    float: left;
+    margin-top: 290px;
+    margin-left: -40px;
+}
+
+.constitution {
+    width: 40px;
+    height: 26px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.const_race_bonus {
+    float: left;
+    margin-top: 328px;
+    margin-left: -33px;
+}
+
+.constitution_race_bonus {
+    width: 26px;
+    height: 17px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.intel {
+    float: left;
+    margin-top: 390px;
+    margin-left: -40px;
+}
+
+.intelligence {
+    width: 40px;
+    height: 26px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.intel_race_bonus {
+    float: left;
+    margin-top: 428px;
+    margin-left: -33px;
+}
+
+.intelligence_race_bonus {
+    width: 26px;
+    height: 17px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.wise {
+    float: left;
+    margin-top: 490px;
+    margin-left: -40px;
+}
+
+.wisdom {
+    width: 40px;
+    height: 26px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.wise_race_bonus {
+    float: left;
+    margin-top: 526px;
+    margin-left: -33px;
+}
+
+.wisdom_race_bonus {
+    width: 26px;
+    height: 17px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.char {
+    float: left;
+    margin-top: 590px;
+    margin-left: -40px;
+}
+
+.charisma {
+    width: 40px;
+    height: 26px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.char_race_bonus {
+    float: left;
+    margin-top: 626px;
+    margin-left: -33px;
+}
+
+.charisma_race_bonus {
+    width: 26px;
+    height: 17px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.pass_wise {
+    float: left;
+    margin-top: 690px;
+    margin-left: -56px;
+}
+
+.passive_wise {
+    width: 33px;
+    height: 23px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.prof {
+    float: left;
+    margin-top: 735px;
+    margin-left: -60px;
+}
+
+.proficiencies {
+    width: 245px;
+    height: 85px;
+    resize: none;
+    background-color: transparent;
+    text-align: top;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.lang {
+    float: left;
+    margin-top: 821px;
+    margin-left: -245px;
+}
+
+.language {
+    width: 245px;
+    height: 102px;
+    resize: none;
+    background-color: transparent;
+    text-align: top;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.inspir {
+    float: left;
+    margin-top: 52px;
+    margin-left: -151px;
+}
+
+.inpiration {
+    width: 30px;
+    height: 23px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.prof_bon {
+    float: left;
+    margin-top: 104px;
+    margin-left: -149px;
+}
+
+.prof_bonus {
+    width: 30px;
+    height: 23px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.str_radio {
+    float: left;
+    margin-top: 156px;
+    margin-left: -146px;
+}
+
+.dex_radio {
+    float: left;
+    margin-top: 175px;
+    margin-left: -146px;
+}
+
+.const_radio {
+    float: left;
+    margin-top: 193px;
+    margin-left: -146px;
+}
+
+.intel_radio {
+    float: left;
+    margin-top: 212px;
+    margin-left: -146px;
+}
+
+.wise_radio {
+    float: left;
+    margin-top: 231px;
+    margin-left: -146px;
+}
+
+.char_radio {
+    float: left;
+    margin-top: 250px;
+    margin-left: -146px;
+}
+
+.str_st {
+    width: 25px;
+    height: 17px;
+    float: left;
+    margin-top: 151px;
+    margin-left: -129px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.dex_st {
+    width: 25px;
+    height: 17px;
+    float: left;
+    margin-top: 169px;
+    margin-left: -129px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.const_st {
+    width: 25px;
+    height: 17px;
+    float: left;
+    margin-top: 188px;
+    margin-left: -129px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.intel_st {
+    width: 25px;
+    height: 17px;
+    float: left;
+    margin-top: 207px;
+    margin-left: -129px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.wise_st {
+    width: 25px;
+    height: 17px;
+    float: left;
+    margin-top: 226px;
+    margin-left: -129px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.char_st {
+    width: 25px;
+    height: 17px;
+    float: left;
+    margin-top: 244px;
+    margin-left: -129px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.acro_radio {
+    float: left;
+    margin-top: 312px;
+    margin-left: -147px;
+}
+
+.animal_radio {
+    float: left;
+    margin-top: 330px;
+    margin-left: -147px;
+}
+
+.arcana_radio {
+    float: left;
+    margin-top: 349px;
+    margin-left: -147px;
+}
+
+.ath_radio {
+    float: left;
+    margin-top: 367px;
+    margin-left: -147px;
+}
+
+.decep_radio {
+    float: left;
+    margin-top: 386px;
+    margin-left: -147px;
+}
+
+.history_radio {
+    float: left;
+    margin-top: 405px;
+    margin-left: -147px;
+}
+
+.insight_radio {
+    float: left;
+    margin-top: 423px;
+    margin-left: -147px;
+}
+
+.intimidation_radio {
+    float: left;
+    margin-top: 443px;
+    margin-left: -147px;
+}
+
+.invest_radio {
+    float: left;
+    margin-top: 461px;
+    margin-left: -147px;
+}
+
+.medicine_radio {
+    float: left;
+    margin-top: 480px;
+    margin-left: -147px;
+}
+
+.nature_radio {
+    float: left;
+    margin-top: 499px;
+    margin-left: -147px;
+}
+
+.perception_radio {
+    float: left;
+    margin-top: 518px;
+    margin-left: -147px;
+}
+
+.perform_radio {
+    float: left;
+    margin-top: 537px;
+    margin-left: -147px;
+}
+
+.persuasion_radio {
+    float: left;
+    margin-top: 556px;
+    margin-left: -147px;
+}
+
+.religion_radio {
+    float: left;
+    margin-top: 574px;
+    margin-left: -147px;
+}
+
+.slight_radio {
+    float: left;
+    margin-top: 592px;
+    margin-left: -147px;
+}
+
+.stealth_radio {
+    float: left;
+    margin-top: 612px;
+    margin-left: -147px;
+}
+
+.survival_radio {
+    float: left;
+    margin-top: 631px;
+    margin-left: -147px;
+}
+
+.acrobatics {
+    width: 25px;
+    height: 17px;
+    float: left;
+    margin-top: 307px;
+    margin-left: -131px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.animal {
+    width: 25px;
+    height: 17px;
+    float: left;
+    margin-top: 325px;
+    margin-left: -131px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.arcana {
+    width: 25px;
+    height: 17px;
+    float: left;
+    margin-top: 344px;
+    margin-left: -131px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.athletics {
+    width: 25px;
+    height: 17px;
+    float: left;
+    margin-top: 363px;
+    margin-left: -131px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.deception {
+    width: 25px;
+    height: 17px;
+    float: left;
+    margin-top: 382px;
+    margin-left: -131px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.history {
+    width: 25px;
+    height: 17px;
+    float: left;
+    margin-top: 400px;
+    margin-left: -131px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.insight {
+    width: 25px;
+    height: 17px;
+    float: left;
+    margin-top: 419px;
+    margin-left: -131px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.intimidation {
+    width: 25px;
+    height: 17px;
+    float: left;
+    margin-top: 438px;
+    margin-left: -131px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.invest {
+    width: 25px;
+    height: 17px;
+    float: left;
+    margin-top: 457px;
+    margin-left: -131px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.medicine {
+    width: 25px;
+    height: 17px;
+    float: left;
+    margin-top: 475px;
+    margin-left: -131px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.nature {
+    width: 25px;
+    height: 17px;
+    float: left;
+    margin-top: 494px;
+    margin-left: -131px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.perception {
+    width: 25px;
+    height: 17px;
+    float: left;
+    margin-top: 513px;
+    margin-left: -131px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.perform {
+    width: 25px;
+    height: 17px;
+    float: left;
+    margin-top: 532px;
+    margin-left: -131px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.persuasion {
+    width: 25px;
+    height: 17px;
+    float: left;
+    margin-top: 550px;
+    margin-left: -131px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.religion {
+    width: 25px;
+    height: 17px;
+    float: left;
+    margin-top: 569px;
+    margin-left: -131px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.slight {
+    width: 25px;
+    height: 17px;
+    float: left;
+    margin-top: 588px;
+    margin-left: -131px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.stealth {
+    width: 25px;
+    height: 17px;
+    float: left;
+    margin-top: 607px;
+    margin-left: -131px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.survival {
+    width: 25px;
+    height: 17px;
+    float: left;
+    margin-top: 625px;
+    margin-left: -131px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.max_hp {
+    float: left;
+    margin-top: 136px;
+    margin-left: 120px;
+}
+
+.hp {
+    width: 50px;
+    float: left;
+    font-size: 25px;
+    margin-top: 160px;
+    margin-left: -20px;
+}
+
+.temp_hp {
+    width: 50px;
+    float: left;
+    font-size: 25px;
+    margin-top: 233px;
+    margin-left: -50px;
+}
+
+.total_hd {
+    font-size: 14px;
+    float: left;
+    margin-top: 309px;
+    margin-left: -100px;
+}
+
+.hit_dice {
+    font-size: 15px;
+    text-align: center;
+    float: left;
+    width: 75px;
+    margin-top: 327px;
+    margin-left: -125px;
+}
+
+.dss1 {
+    float: left;
+    margin-top: 317px;
+    margin-left: 22px;
+}
+
+.dss2 {
+    float: left;
+    margin-top: 317px;
+    margin-left: 2px;
+}
+
+.dss3 {
+    float: left;
+    margin-top: 317px;
+    margin-left: 2px;
+}
+
+.dsf1 {
+    float: left;
+    margin-top: 338px;
+    margin-left: -52px;
+}
+
+.dsf2 {
+    float: left;
+    margin-top: 338px;
+    margin-left: -34px;
+}
+
+.dsf3 {
+    float: left;
+    margin-top: 338px;
+    margin-left: -16px;
+}
+
+.weapon1 {
+    width: 93px;
+    height: 22px;
+    font-size: 18px;
+    background-color: transparent;   
+    float: left;
+    margin-top: 414px;
+    margin-left: -225px;
+}
+
+.weapon2 {
+    width: 93px;
+    height: 22px;
+    font-size: 18px;
+    background-color: transparent;
+    float: left;
+    margin-top: 441px;
+    margin-left: -225px;
+}
+
+.weapon3 {
+    width: 93px;
+    height: 22px;
+    font-size: 18px;
+    background-color: transparent;
+    float: left;
+    margin-top: 470px;
+    margin-left: -225px;
+}
+
+.attack1 {
+    width: 47px;
+    height: 22px;
+    font-size: 18px;
+    text-align: center;
+    background-color: transparent;
+    float: left;
+    margin-top: 414px;
+    margin-left: -129px;
+}
+
+.attack2 {
+    width: 47px;
+    height: 22px;
+    font-size: 18px;
+    text-align: center;
+    background-color: transparent;
+    float: left;
+    margin-top: 441px;
+    margin-left: -129px;
+}
+
+.attack3 {
+    width: 47px;
+    height: 22px;
+    font-size: 18px;
+    text-align: center;
+    background-color: transparent;
+    float: left;
+    margin-top: 470px;
+    margin-left: -129px;
+}
+
+.damage1 {
+    width: 90px;
+    height: 22px;
+    font-size: 18px;
+    background-color: transparent;
+    float: left;
+    margin-top: 414px;
+    margin-left: -78px;
+}
+
+.damage2 {
+    width: 90px;
+    height: 22px;
+    font-size: 18px;
+    background-color: transparent;
+    float: left;
+    margin-top: 441px;
+    margin-left: -90px;
+}
+
+.damage3 {
+    width: 90px;
+    height: 22px;
+    font-size: 18px;
+    background-color: transparent;
+    float: left;
+    margin-top: 470px;
+    margin-left: -90px;
+}
+
+.atck_spell {
+    width: 230px;
+    height: 150px;
+    text-align: start; 
+    float: left;
+    resize: none;
+    margin-top: 500px;
+    margin-left: -235px;
+}
+
+.cp {
+    font-size: 12px;
+    float: left;
+    margin-top: 700px;
+    margin-left: -225px;
+}
+
+.copper {
+    width: 25px;
+    font-size: 12px;
+}
+
+.cp {
+    font-size: 12px;
+    float: left;
+    margin-top: 700px;
+    margin-left: -225px;
+}
+
+.copper {
+    width: 25px;
+    font-size: 12px;
+}
+
+.sp {
+    font-size: 12px;
+    float: left;
+    margin-top: 736px;
+    margin-left: -225px;
+}
+
+.silver {
+    width: 25px;
+    font-size: 12px;
+}
+
+.ep {
+    font-size: 12px;
+    float: left;
+    margin-top: 773px;
+    margin-left: -225px;
+}
+
+.electrum {
+    width: 25px;
+    font-size: 12px;
+}
+
+.gp {
+    font-size: 12px;
+    float: left;
+    margin-top: 808px;
+    margin-left: -225px;
+}
+
+.gold {
+    width: 25px;
+    font-size: 12px;
+}
+
+.pp {
+    font-size: 12px;
+    float: left;
+    margin-top: 844px;
+    margin-left: -225px;
+}
+
+.platinum {
+    width: 25px;
+    font-size: 12px;
+}
+
+table, td, tr {
+    border: 1px solid black;
+}
