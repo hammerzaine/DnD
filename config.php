@@ -1,9 +1,10 @@
 <?php
+// Replace variables with your information
 /* Database credentials. */
-define('DB_SERVER', '192.168.0.147');
-define('DB_USERNAME', 'admin');
-define('DB_PASSWORD', 'Metallica!1');
-define('DB_NAME', 'DandD');
+define('DB_SERVER', 'IP_ADDRESS');
+define('DB_USERNAME', 'USERNAME');
+define('DB_PASSWORD', 'PASSWORD');
+define('DB_NAME', 'DATABASE_NAME');
  
 /* Attempt to connect to MySQL database */
 $con = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
