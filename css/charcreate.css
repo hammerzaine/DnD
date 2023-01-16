@@ -96,132 +96,37 @@ input, textarea {
 
 .dex {
     float: left;
-    margin-top: 190px;
-    margin-left: -40px;
-}
-
-.dexterity {
-    width: 40px;
-    height: 26px;
-    text-align: center;
-    font-size: 25px;
-}
-
-.dex_race_bonus {
-    float: left;
-    margin-top: 229px;
-    margin-left: -33px;
-}
-
-.dexterity_race_bonus {
-    width: 26px;
-    height: 17px;
-    text-align: center;
-    font-size: 15px;
-}
-
-.const {
-    float: left;
-    margin-top: 290px;
-    margin-left: -40px;
+    width: 45px;
+    margin-top: 320px;
+    margin-left: -550px;
 }
 
 .constitution {
-    width: 40px;
-    height: 26px;
-    text-align: center;
-    font-size: 25px;
-}
-
-.const_race_bonus {
     float: left;
-    margin-top: 328px;
-    margin-left: -33px;
-}
-
-.constitution_race_bonus {
-    width: 26px;
-    height: 17px;
-    text-align: center;
-    font-size: 15px;
+    width: 45px;
+    margin-top: 418px;
+    margin-left: -550px;
 }
 
 .intel {
     float: left;
-    margin-top: 390px;
-    margin-left: -40px;
-}
-
-.intelligence {
-    width: 40px;
-    height: 26px;
-    text-align: center;
-    font-size: 25px;
-}
-
-.intel_race_bonus {
-    float: left;
-    margin-top: 428px;
-    margin-left: -33px;
-}
-
-.intelligence_race_bonus {
-    width: 26px;
-    height: 17px;
-    text-align: center;
-    font-size: 15px;
+    width: 45px;
+    margin-top: 518px;
+    margin-left: -550px;
 }
 
 .wise {
     float: left;
-    margin-top: 490px;
-    margin-left: -40px;
-}
-
-.wisdom {
-    width: 40px;
-    height: 26px;
-    text-align: center;
-    font-size: 25px;
-}
-
-.wise_race_bonus {
-    float: left;
-    margin-top: 526px;
-    margin-left: -33px;
-}
-
-.wisdom_race_bonus {
-    width: 26px;
-    height: 17px;
-    text-align: center;
-    font-size: 15px;
-}
-
-.char {
-    float: left;
-    margin-top: 590px;
-    margin-left: -40px;
+    width: 45px;
+    margin-top: 616px;
+    margin-left: -550px;
 }
 
 .charisma {
-    width: 40px;
-    height: 26px;
-    text-align: center;
-    font-size: 25px;
-}
-
-.char_race_bonus {
     float: left;
-    margin-top: 626px;
-    margin-left: -33px;
-}
-
-.charisma_race_bonus {
-    width: 26px;
-    height: 17px;
-    text-align: center;
-    font-size: 15px;
+    width: 45px;
+    margin-top: 716px;
+    margin-left: -550px;
 }
 
 .pass_wise {

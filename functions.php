@@ -12,22 +12,22 @@ function dice_roll( $side, $rolls ) {
 
     if ( $side == 6 ) {
         if ( $dice === 1 ) {
-            $dice_img = "<img src='pics/dice/1d6-1.png' width='50' height='50'>";
+            $dice_img = "<img src='pics/dice/1d6-1.png' width='40' height='40'>";
         }
         elseif ($dice === 2) {
-            $dice_img = "<img src='pics/dice/1d6-2.png' width='50' height='50'>";
+            $dice_img = "<img src='pics/dice/1d6-2.png' width='40' height='40'>";
         }
         elseif ($dice == 3) {
-            $dice_img = "<img src='pics/dice/1d6-3.png' width='50' height='50'>";
+            $dice_img = "<img src='pics/dice/1d6-3.png' width='40' height='40'>";
         }
         elseif ($dice == 4) {
-            $dice_img = "<img src='pics/dice/1d6-4.png' width='50' height='50'>";
+            $dice_img = "<img src='pics/dice/1d6-4.png' width='40' height='40'>";
         }
         elseif ($dice == 5) {
-            $dice_img = "<img src='pics/dice/1d6-5.png' width='50' height='50'>";
+            $dice_img = "<img src='pics/dice/1d6-5.png' width='40' height='40'>";
         }
         elseif ($dice == 6) {
-            $dice_img = "<img src='pics/dice/1d6-6.png' width='50' height='50'>";
+            $dice_img = "<img src='pics/dice/1d6-6.png' width='40' height='40'>";
         }
     }
         else {

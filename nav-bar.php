@@ -19,7 +19,7 @@
             else {
                 echo "<a href='character.php'>Characters</a>";
                 if ($page) {
-                    echo "<a href='char_help.php' target='_blank'>Help</a>";
+                    echo "<a href='https://www.dndbeyond.com/sources/basic-rules/step-by-step-characters' target='_blank'>Help</a>";
                 }
                 
                 $sql = "SELECT * FROM users";

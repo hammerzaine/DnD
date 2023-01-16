@@ -6,7 +6,7 @@ session_start();
 $user = $_SESSION[ "username" ];
 include "config.php";
 include "functions.php";
-//echo "<meta http-equiv='refresh' content='$refresh_rate'>";
+echo "<meta http-equiv='refresh' content='$refresh_rate'>";
 ?>
 
     <link href="css/charcreate.css" rel="stylesheet" type="text/css">
@@ -41,22 +41,27 @@ $result = mysqli_query( $con, $sql );
         if ( array_key_exists( 'roll', $_POST ) ) {
             echo "Strength";
             dice_roll( 6, 3 );
+            echo "<hr>";
             echo "<p>";
             echo "Dexterity";
             dice_roll( 6, 3 );
             echo "</p>";
+            echo "<hr>";
             echo "<p>";
             echo "Constitution";
             dice_roll( 6, 3 );
             echo "</p>";
+            echo "<hr>";
             echo "<p>";
             echo "Inteligence";
             dice_roll( 6, 3 );
             echo "</p>";
+            echo "<hr>";
             echo "<p>";
             echo "Wisdom";
             dice_roll( 6, 3 );
             echo "</p>";
+            echo "<hr>";
             echo "<p>";
             echo "Charisma";
             dice_roll( 6, 3 );
@@ -116,6 +121,12 @@ $result = mysqli_query( $con, $sql );
 </select>
 <select>
     <input type="text" class="str" name="str">
+    <input type="text" class="dex" name="dex">
+    <input type="text" class="constitution" name="constitution">
+    <input type="text" class="intel" name="intel">
+    <input type="text" class="wise" name="wise">
+    <input type="text" class="charisma" name="charisma">
+    <label class="pass_wise" name = "pass_wise">10+Wisdom Modifier</label>
 </select>
 </setion>
 </form>
@@ -132,8 +143,12 @@ if ( $_POST[ "action" ] == "Create" ) {
     $bg = $_POST[ 'bg' ];
     $alignment = $_POST[ "alignment" ];
     $str = $_POST["str"];
+    $dex = $_POST["dex"];
+    $constitution = $_POST["constitution"];
+    $wise = $_POST["wise"];
+    $charisma = $_POST["charisma"];
 
-    $csql = "INSERT INTO " . $table . " (char_name, class, background, owner, alignment, strength) VALUES ('$char_name', '$class', '$bg', '$user', '$alignment', '$str')";
+    $csql = "INSERT INTO " . $table . " (char_name, class, background, owner, alignment, strength, dexterity, wisdom) VALUES ('$char_name', '$class', '$bg', '$user', '$alignment', '$str', '$dex', '$wise', '$charisma')";
     if ( mysqli_query( $con, $csql ) ) {
         echo "Character Created";
     } else {
