@@ -1,12 +1,18 @@
 <html>
 <?php
+$refresh = 0;
 $refresh_rate = '5';
 $table = "test";
 session_start();
 $user = $_SESSION[ "username" ];
 include "config.php";
 include "functions.php";
-echo "<meta http-equiv='refresh' content='$refresh_rate'>";
+if ($refresh == 0) {
+    //echo "<meta http-equiv='refresh' content='$refresh_rate'>";
+}
+elseif ($refresh == 1) {
+    echo "<meta http-equiv='refresh' content='$refresh_rate'>";
+}
 ?>
 
     <link href="css/charcreate.css" rel="stylesheet" type="text/css">
